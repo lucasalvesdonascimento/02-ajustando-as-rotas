@@ -1,16 +1,14 @@
-<?php require_once 'header.php';?>
-<?php
-    $pag = 'nav/'.$_GET["pag"];
-    if($pag == 'nav/'){
-        require_once 'nav/home.php';
-    }else{
-        if(file_exists($pag)){
-            require_once $pag; 
-        }else{
-            echo 'Pagina nao encontrada';
-        }
-    }
-    
+<?php 
+ini_set("display_errors", 1);
+error_reporting(E_ALL);
+require_once 'header.php';
+$pag = filter_input(INPUT_GET, "pag");
+$pag = 'nav/'.$pag;
+if ($pag == 'nav/') {
+  require_once "nav/home.php";
+} else {
+  require_once $pag;
+}
     
 ?>
 <?php require_once 'footer.php';?>

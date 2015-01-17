@@ -2,11 +2,13 @@
     <div class="span2"></div>
     <div class="span8">
     <?php
-        $nome = htmlspecialchars($_POST['nome']);
-        $email = htmlspecialchars($_POST['email']);
-        $assunto = htmlspecialchars($_POST['assunto']);
-        $mensagem = htmlspecialchars($_POST['mensagem']);
-        $enviar = $_POST['enviar'];
+        $nome = filter_input(INPUT_POST,'nome', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+        $email = filter_input(INPUT_POST,'email', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+        $assunto = filter_input(INPUT_POST,'assunto', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+        $mensagem = filter_input(INPUT_POST,'mensagem', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+        $nome = filter_input(INPUT_POST,'nome', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+        $enviar = filter_input(INPUT_POST, 'enviar');
+        
         if(isset($enviar) && $enviar == 'Enviar'){
            echo '<div class="alert alert-success"><h4>Dados enviados com sucesso, abaixo seguem os dados que você enviou</h4></div>';
            echo '<p><b>Nome: </b>'.$nome.'</p>';
@@ -35,7 +37,7 @@
         <textarea class="form-control" rows="3" placeholder="Digite a sua mensagem..." name="mensagem"></textarea>
       </div>
 
-            <input type="submit" class="btn btn-default" name="enviar" id="enviar" value="Enviar" />
+     <input type="submit" class="btn btn-default" name="enviar" id="enviar" value="Enviar" />
     </form>
     </div>
     <div class="span2"></div>
