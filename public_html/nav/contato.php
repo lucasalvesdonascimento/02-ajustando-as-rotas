@@ -6,7 +6,6 @@
         $email = filter_input(INPUT_POST,'email', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
         $assunto = filter_input(INPUT_POST,'assunto', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
         $mensagem = filter_input(INPUT_POST,'mensagem', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-        $nome = filter_input(INPUT_POST,'nome', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
         $enviar = filter_input(INPUT_POST, 'enviar');
         
         if(isset($enviar) && $enviar == 'Enviar'){
