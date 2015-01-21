@@ -9,10 +9,16 @@ function rota($param){
     
     if($verificaRota){    
         //se existir, faz o require_once do arquivo desejado
-        return require_once 'nav/'.$param.'.php';        
+        $arquivo = 'nav/'.$param.'.php'; 
+        //veriica se o arquivo existe
+        if(file_exists($arquivo)){
+            require_once $arquivo;
+        }else{
+            echo '404 - arquivo nao encontrado';
+        }
     }else if(!$verificaRota){
         //se nao existir, faz o require_once do home (index.php)
-        return require_once 'nav/home.php';;
+        require_once 'nav/home.php';
     }else{
         echo '404';
     }
