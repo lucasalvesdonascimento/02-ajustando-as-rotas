@@ -10,7 +10,7 @@ function rota($param){
     if($verificaRota){    
         //se existir, faz o require_once do arquivo desejado
         $arquivo = 'nav/'.$param.'.php'; 
-        //veriica se o arquivo existe
+        //verifica se o arquivo existe
         if(file_exists($arquivo)){
             require_once $arquivo;
         }else{
