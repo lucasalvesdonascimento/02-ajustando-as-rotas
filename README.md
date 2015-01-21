@@ -1,2 +1,2 @@
-# 01-site-simples-em-php
-<p>Dentro da pasta public_html se encontram os arquivos do projeto <b>site simples em php</b></p>
+# 02-ajustando-as-rotas
+<p>Dentro da pasta public_html se encontram os arquivos do projeto <b>ajustando as rotas</b></p>
