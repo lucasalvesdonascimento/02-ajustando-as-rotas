@@ -4,41 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Site seuproduto.com</title>
-        <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css" />
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-        <link rel="stylesheet" href="bootstrap/css/style.css" />
+        <!--twitter bootstrap 3.3.2-->
+        <link rel="stylesheet" href="bootstrap-3.3.2-dist/css/bootstrap.css" />        
     </head>
     <body>
         <?php date_default_timezone_set('America/Sao_Paulo');?>
-        <div class="container-fluid">
-            <div class="row-fluid bg-darkblue">
-                &nbsp;
-            </div>
-            <div class="row-fluid bg-blue">
-                <div class="span6 topo titulo">
-                    <a href="index.php" title="Home"><h1>SeuProduto.com</h1></a>
-                </div>
-                <div class="span6 topo-slogan">
-                    <span>Aqui você encontra produtos de qualidade!</span>
-                </div>
-            </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">seuproduto.com</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.php?pag=home">Home</a></li>
+            <li><a href="index.php?pag=empresa">Empresa</a></li>
+            <li><a href="index.php?pag=produtos">Produtos</a></li>
+            <li><a href="index.php?pag=servicos">Serviços</a></li>
+            <li><a href="index.php?pag=contato">Contato</a></li>          
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+        
+    <div class="container" style="margin-top: 80px;">
+           
             
-            <div class="navbar navbar-inverse">
-                <div class="navbar-inner">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="index.php">seuproduto.com</a>
-                    <div class="nav-collapse collapse">
-                    <ul class="nav">
-                        <li class="active"><a href="index.php?pag=home.php">Home</a></li>
-                        <li><a href="index.php?pag=empresa.php">Empresa</a></li>
-                        <li><a href="index.php?pag=produtos.php">Produtos</a></li>
-                        <li><a href="index.php?pag=servicos.php">Serviços</a></li>
-                        <li><a href="index.php?pag=contato.php">Contato</a></li>
-                    </ul>
-                    </div>
-                </div>           
-            </div>
+            
