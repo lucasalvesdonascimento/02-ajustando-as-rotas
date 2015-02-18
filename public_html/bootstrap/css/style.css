@@ -1,0 +1,14 @@
+.topo{padding: 20px;}
+.topo-slogan{padding: 20px;}
+.topo-slogan span{font: 2em "Trebuchet MS", Arial, Helvetica, sans-serif; 
+                  color: #fff; font-variant: small-caps; font-weight: bold; 
+                  float: right; margin-rigth: 10em; text-align: left; margin-top: 20px;}
+.titulo a h1{float: left; font: 50px "Trebuchet MS", Arial, Helvetica, sans-serif; font-variant: small-caps;
+            font-weight: bold; color: #fff; text-decoration: none;}
+.titulo a:hover{text-decoration: none;}
+.titulo a h1:hover{color: whitesmoke; text-decoration: none;}
+.bg-darkblue{background-color: #002a80;}
+.bg-blue{background-color: #0081c2;}
+
+.form-control{width: 100%;}
+.contact-form{background-color: #ccffff; padding: 30px;}
