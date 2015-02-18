@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="bootstrap-3.3.2-dist/css/bootstrap.css" />        
     </head>
     <body>
+
         <?php date_default_timezone_set('America/Sao_Paulo'); ?>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -40,5 +41,4 @@
             </div>
         </nav>
         <div class="container" style="margin-top: 80px;">
-
 

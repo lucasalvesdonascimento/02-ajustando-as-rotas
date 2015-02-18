@@ -1,0 +1,40 @@
+<!--       <div class="row">
+        <div class="col-lg-4">
+          <center><img class="img-rounded" src="/img/1206LY_copy.jpg" alt="Generic placeholder image" style="width: 350px; height: 250px;"></center>
+          <h2>Áudio</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div> /.col-lg-4 
+        <div class="col-lg-4">
+          <center><img class="img-rounded" src="/img/225x225xSmartphones1.jpg.pagespeed.ic.r0pp51R0-n.jpg" alt="Generic placeholder image" style="width: 350px; height: 250px;"></center>
+          <h2>Smartphones</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div> /.col-lg-4 
+        <div class="col-lg-4">
+            <center><img class="img-rounded" src="/img/b4b03aa2fc8a6391a4394035697cac070.jpg" alt="Generic placeholder image" style="width: 350px; height: 250px;"></center>
+          <h2>Câmeras</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div> /.col-lg-4 
+      </div> /.row 
+      <div class="row">
+        <div class="col-lg-4">
+          <center><img class="img-rounded" src="/img/valor-do-playstation-4-no-brasil.jpg" alt="Generic placeholder image" style="width: 350px; height: 250px;"></center>
+          <h2>Vídeo-games</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div> /.col-lg-4 
+        <div class="col-lg-4">
+          <center><img class="img-rounded" src="/img/onkyo_headphones2.jpg" alt="Generic placeholder image" style="width: 350px; height: 250px;"></center>
+          <h2>Head-phones</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div> /.col-lg-4 
+        <div class="col-lg-4">
+          <center><img class="img-rounded" src="/img/zaggmateipadcase.jpg" alt="Generic placeholder image" style="width: 350px; height: 250px;"></center>
+          <h2>Informática</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div> /.col-lg-4 
+      </div> /.row -->

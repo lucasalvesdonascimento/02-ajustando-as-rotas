@@ -16,10 +16,15 @@
            echo '<p><b>Mensagem: </b>'.$mensagem.'</p>';
            
         }
+
                 
     ?>
         <h2><center>Formulário de contato</center></h2>  
         
+
+    
+        <h2><center>Formulário de contato</center></h2>  
+
         <form method="post" enctype="multipart/form-data" class="contact-form">
       <div class="form-group">
         <label for="exampleInputName">Nome: </label>
