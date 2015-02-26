@@ -2,6 +2,21 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/nav/search.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/header.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/nav/contato.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/nav/single.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/index.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/nav/servicos.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/nav/home.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/nav/produtos.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/nav/empresa.php</file>
+            <file>file:/G:/arquivos-de-cursos/code.education/03-conteudo-em-banco-de-dados/public_html/functions/funcoes.php</file>
+        </group>
+>>>>>>> 0e2dff62d61630ec8bcfc5ba202f5628e1fa6fd9
     </open-files>
 </project-private>
