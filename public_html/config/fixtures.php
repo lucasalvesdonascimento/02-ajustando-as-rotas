@@ -6,6 +6,26 @@ echo "#### Executando Fixtures ####\n";
 
 $conn = conexaoBD();
 
+echo "Inserindo Dados na tabela - login\n";
+
+$usuario = "admin@email.com";
+$senha_user = "admin";
+
+$options = [
+    'cost' => 10
+];
+
+$senha = password_hash($senha_user, PASSWORD_DEFAULT, $options);
+
+$stmt = $conn->prepare("INSERT INTO login (usuario, senha) VALUES (:usuario, :senha)");
+$stmt->bindParam(":usuario", $usuario);
+$stmt->bindParam(":senha", $senha);
+$stmt->execute();
+
+echo "Insercao de 1 usuario na tabela login - OK\n";
+
+
+
 echo "Inserindo Dados\n";
 
 $titulo_single = "Titulo de Exemplo";

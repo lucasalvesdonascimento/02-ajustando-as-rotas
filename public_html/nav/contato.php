@@ -13,16 +13,9 @@
            echo '<p><b>Nome: </b>'.$nome.'</p>';
            echo '<p><b>E-mail: </b>'.$email.'</p>';
            echo '<p><b>Assunto: </b>'.$assunto.'</p>';
-           echo '<p><b>Mensagem: </b>'.$mensagem.'</p>';
-           
-        }
-
-                
+           echo '<p><b>Mensagem: </b>'.$mensagem.'</p>';           
+        }                
     ?>
-        <h2><center>Formulário de contato</center></h2>  
-        
-
-    
         <h2><center>Formulário de contato</center></h2>  
 
         <form method="post" enctype="multipart/form-data" class="contact-form">

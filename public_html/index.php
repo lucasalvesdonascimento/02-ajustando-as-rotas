@@ -1,19 +1,18 @@
-<?php 
-ini_set("display_errors", 1);
-error_reporting(E_ALL);
-
-require_once 'header.php';?>
+<?php require_once 'header.php';?>
 
 <?php
 
 $pag = filter_input(INPUT_GET, "pag");
 $search = filter_input(INPUT_POST, "btn-buscar");
+$login = filter_input(INPUT_POST, "btn-login");
 
 
 if(isset($pag) && $pag =! null){
     include 'nav/single.php';
 }else if(isset($search) && $search=='Buscar'){
     include 'nav/search.php';
+}else if(isset($login) && $login=='Painel Administrativo'){
+    include 'nav/login.php';
 }else{
     include 'nav/single.php';
 }

@@ -4,7 +4,7 @@ return array(
     'db' => array(
         'host' => 'localhost',
         'dbname' => 'seuprodutobd',
-        'user' => 'root',
+        'user' => 'Lucas',
         'password' => 'admin',
     )
 );
