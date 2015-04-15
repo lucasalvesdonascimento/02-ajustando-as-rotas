@@ -1,14 +1,15 @@
 <<<<<<< HEAD
 # projeto-php-foundation
-<<<<<<< HEAD
+
 <p>PHP Foundation</p>
 
 <p>Antes de executar o projeto, deve-se criar o schema (banco de dados) com o nome de seuprodutobd.</p>
 <p>No arquivo config.php voce deve informar o host, o nome do banco de dados, o usuario e a senha.</p>
 <p>Em seguiida executar o arquivo fixtures.php que se encontra na pasta config.</p>
+<p>A fixture cria o banco de dados e seu conteudo.</p>
+<p>Encontra-se no banco de dados as tabelas login e single</p>
 <p>Depois é só executar o sistema normalmente.</p>
-=======
-Além da fixture.php o projeto contém o arquivo seuprodutobd.sql. 
+
 
 =======
 <p>Dentro da pasta public_html se encontram os arquivos do projeto</p>
